@@ -1,0 +1,95 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .custom-footer {
+    background-color: #333; /* Set background color */
+    color: #fff; /* Set text color */
+    font-family: Arial, sans-serif; /* Set the desired font family */
+  
+    /* Add any additional styles as needed */
+  }
+  
+  .footer-logo {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer-logo img {
+    height: 4rem; /* Adjust the height as needed */
+  }
+  
+  .footer-contact {
+    text-align: center;
+  }
+  
+  .footer-contact a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-social {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer-social a {
+    color: #a0aec0; /* Set the default color */
+    margin-right: 1rem; /* Adjust spacing between icons */
+  }
+  
+  .footer-social a:hover {
+    color: #fff; /* Set the color on hover */
+  }
+  
+  .footer-columns {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem; /* Adjust the gap between columns as needed */
+  }
+  
+  .footer-column {
+    margin-top: 1.6rem; /* Adjust the top margin for each column */
+  }
+  
+  .footer-heading {
+    font-size: 1.2rem; /* Adjust the font size as needed */
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .footer-link {
+    display: block;
+    color: #a0aec0; /* Set the default color */
+    text-decoration: none;
+    margin-top: 0.8rem; /* Adjust the top margin for each link */
+  }
+  
+  .footer-link:hover {
+    color: #fff; /* Set the color on hover */
+  }
+  
+  .footer-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 2rem; /* Adjust the top margin for the bottom section */
+  }
+  
+  .footer-bottom p {
+    color: #a0aec0; /* Set the default color */
+    font-size: 0.8rem; /* Adjust the font size as needed */
+  }
+  
+  .footer-bottom img {
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+    margin-top: 1rem; /* Adjust the top margin for the image */
+  }
+  
